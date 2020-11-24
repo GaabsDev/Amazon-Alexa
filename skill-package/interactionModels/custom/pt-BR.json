@@ -1,0 +1,87 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "heróis",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "WhatsTheIntentAbout",
+          "slots": [],
+          "samples": [
+            "Sobre o que fala essa intent",
+            "como ustilizo essa intent",
+            "O que faz essa intent"
+          ]
+        },
+        {
+          "name": "InfoAboutCharacters",
+          "slots": [],
+          "samples": [
+            "me fala sobre os personagens",
+            "me diga sobre os personagens ",
+            "Quais são os personagens",
+            "Personagens"
+          ]
+        },
+        {
+          "name": "GetCharacterIntent",
+          "slots": [
+              {
+                  "name": "hero",
+                  "type": "Hero"
+              }
+          ],
+          "samples": [
+              "quero saber mais sobre o {hero}",
+              "me diga mais a respeito do {hero}",
+              "me conta mais sobre o {hero}",
+              "me fala sobre o {hero}"
+          ]
+      }
+  ],
+          "types": [
+            {
+                "name": "Hero",
+                "values": [
+                    {
+                        "name": {
+                            "value": "batman, morcego, homem morcego, bruce wayne"
+                        }
+                    },
+                    {
+                        "name": {
+                            "value": "superman, clark kent, super homem, escoteiro"
+                        }
+                    },
+                    {
+                        "name": {
+                            "value": "homem de ferro, iron man, tony stark"
+                        }
+                    },
+                    {
+                        "name": {
+                            "value": "capitão america, steve rodges, capitão américa, capitão, capitao"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+  },
+  "version": "3"
+}
