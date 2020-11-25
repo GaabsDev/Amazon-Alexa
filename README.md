@@ -22,7 +22,7 @@
 ## 🌎 Demonstration
 Vizualise a na imagem os testes realizados na plataforma de desenvolvimento da alexa.
 <h1 align="center">
-    <img src="https://github.com/angais/alexa-herois/blob/master/.docs/test.png" />
+    <img src="https://github.com/AnGaIs/Amazon-Alexa/blob/master/docs/test.png" />
 </h1>
 
 
