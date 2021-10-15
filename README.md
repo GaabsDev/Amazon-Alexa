@@ -1,6 +1,5 @@
-<h1 align="center">
-    <img  src="https://github.com/PF-Henrique/alexa-herois/blob/master/.docs/index.png" />
-</h1>
+
+
 
 <h1 align='center'>Interface de voz com Amazon Alexa</h1>
 
@@ -12,10 +11,14 @@
   <a href="#-Contributing">🤝 Contributing</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-license">📚 License</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;  
 </p>
+<h1 align="center">
+    <img  src="https://github.com/PF-Henrique/alexa-herois/blob/master/.docs/index.png" />
+</h1>
 
 <h4 align="center">
      Siga os passos descritos nos README.md de cada diretorio
 </h4>
+
 
 # Alexa-Super-Hero
 
@@ -90,4 +93,3 @@ Then send a Pull Request that will be analyzed and approved if it helps with the
 
 ## 📝 License
 #### This project is [MIT](LICENSE) licensed. 
-
