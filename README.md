@@ -89,7 +89,5 @@ $ git push origin {branch-name}
 
 Then send a Pull Request that will be analyzed and approved if it helps with the project
 
-
-
 ## 📝 License
 #### This project is [MIT](LICENSE) licensed. 
