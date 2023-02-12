@@ -41,46 +41,46 @@
         {
           "name": "GetCharacterIntent",
           "slots": [
-              {
-                  "name": "hero",
-                  "type": "Hero"
-              }
+            {
+              "name": "hero",
+              "type": "Hero"
+            }
           ],
           "samples": [
-              "quero saber mais sobre o {hero}",
-              "me diga mais a respeito do {hero}",
-              "me conta mais sobre o {hero}",
-              "me fala sobre o {hero}"
+            "quero saber mais sobre o {hero}",
+            "me diga mais a respeito do {hero}",
+            "me conta mais sobre o {hero}",
+            "me fala sobre o {hero}"
           ]
-      }
-  ],
-          "types": [
+        }
+      ],
+      "types": [
+        {
+          "name": "Hero",
+          "values": [
             {
-                "name": "Hero",
-                "values": [
-                    {
-                        "name": {
-                            "value": "batman, morcego, homem morcego, bruce wayne"
-                        }
-                    },
-                    {
-                        "name": {
-                            "value": "superman, clark kent, super homem, escoteiro"
-                        }
-                    },
-                    {
-                        "name": {
-                            "value": "homem de ferro, iron man, tony stark"
-                        }
-                    },
-                    {
-                        "name": {
-                            "value": "capitão america, steve rodges, capitão américa, capitão, capitao"
-                        }
-                    }
-                ]
+              "name": {
+                "value": "batman, morcego, homem morcego, bruce wayne"
+              }
+            },
+            {
+              "name": {
+                "value": "superman, clark kent, super homem, escoteiro"
+              }
+            },
+            {
+              "name": {
+                "value": "homem de ferro, iron man, tony stark"
+              }
+            },
+            {
+              "name": {
+                "value": "capitão america, steve rodges, capitão américa, capitão, capitao"
+              }
             }
-        ]
+          ]
+        }
+      ]
     }
   },
   "version": "3"
